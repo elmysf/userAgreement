@@ -2,7 +2,8 @@
 Example make a user agreement in your app
 
 
-(https://github.com/elmysf/userAgreement/tree/master/Screenshoot/Potrait.png)
+
+![Screenshot](Potrait.png)
 
 
-(https://github.com/elmysf/userAgreement/tree/master/Screenshoot/Lanscape.png)
+![Screenshot](Lanscape.png)
