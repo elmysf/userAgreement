@@ -14,6 +14,8 @@
 		F040B6932495121500AEDFBA /* UserAggrement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F040B6912495121500AEDFBA /* UserAggrement.xcdatamodeld */; };
 		F040B6952495121800AEDFBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F040B6942495121800AEDFBA /* Assets.xcassets */; };
 		F040B6982495121800AEDFBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F040B6962495121800AEDFBA /* LaunchScreen.storyboard */; };
+		F040B6A624951B8900AEDFBA /* Potrait.png in Resources */ = {isa = PBXBuildFile; fileRef = F040B6A424951B8900AEDFBA /* Potrait.png */; };
+		F040B6A724951B8900AEDFBA /* Lanscape.png in Resources */ = {isa = PBXBuildFile; fileRef = F040B6A524951B8900AEDFBA /* Lanscape.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F040B6942495121800AEDFBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F040B6972495121800AEDFBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F040B6992495121800AEDFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F040B6A424951B8900AEDFBA /* Potrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Potrait.png; sourceTree = "<group>"; };
+		F040B6A524951B8900AEDFBA /* Lanscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lanscape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 		F040B67C2495121500AEDFBA = {
 			isa = PBXGroup;
 			children = (
+				F040B69F24951B1C00AEDFBA /* Screenshoot */,
 				F040B6872495121500AEDFBA /* UserAggrement */,
 				F040B6862495121500AEDFBA /* Products */,
 			);
@@ -68,6 +73,15 @@
 				F040B6912495121500AEDFBA /* UserAggrement.xcdatamodeld */,
 			);
 			path = UserAggrement;
+			sourceTree = "<group>";
+		};
+		F040B69F24951B1C00AEDFBA /* Screenshoot */ = {
+			isa = PBXGroup;
+			children = (
+				F040B6A524951B8900AEDFBA /* Lanscape.png */,
+				F040B6A424951B8900AEDFBA /* Potrait.png */,
+			);
+			path = Screenshoot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +143,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F040B6982495121800AEDFBA /* LaunchScreen.storyboard in Resources */,
+				F040B6A624951B8900AEDFBA /* Potrait.png in Resources */,
 				F040B6952495121800AEDFBA /* Assets.xcassets in Resources */,
+				F040B6A724951B8900AEDFBA /* Lanscape.png in Resources */,
 				F040B6902495121500AEDFBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
