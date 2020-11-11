@@ -52,10 +52,10 @@ class ViewController: UIViewController {
         let alert = UIAlertController(title: "License Agreement", message: message, preferredStyle: .alert)
         
         //create Decline button
-        let declineAction = UIAlertAction(title: "Decline" , style: .destructive){ (action) -> Void in
-            //DECLINE LOGIC GOES HERE
-            
-        }
+//       let declineAction = UIAlertAction(title: "Decline" , style: .destructive){ (action) -> Void in
+//            //DECLINE LOGIC GOES HERE
+//
+//        }
         
         //create Accept button
         let acceptAction = UIAlertAction(title: "Accept", style: .default) { (action) -> Void in
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         }
         
         //add task to tableview buttons
-        alert.addAction(declineAction)
+//        alert.addAction(declineAction)
         alert.addAction(acceptAction)
         
         
